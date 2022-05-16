@@ -9,4 +9,4 @@
 # Practice Test
 
 ##Topologi
-![Topologi](https://github.com/bantuajadulu/JNA_Sertification/issues/1#issue-1237824199)
+![Topologi](https://user-images.githubusercontent.com/104877293/168695145-0b7ee189-2957-425d-a9d6-58c0c728b11a.png)
