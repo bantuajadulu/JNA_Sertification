@@ -6,4 +6,7 @@
 - [ ] J.611000.013.02 | Mengkonfigurasi routing pada perangkat jaringan dalam satu autonomous system
 - [ ] J.611000.014.02 | Mengkonfigurasi routing pada perangkat jaringan antar autonomous system
 
-## Practice Test
+# Practice Test
+
+##Topologi
+![Topologi](https://github.com/bantuajadulu/JNA_Sertification/issues/1#issue-1237824199)
