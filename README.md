@@ -253,7 +253,7 @@ Konfigurasi RM3 Redistribute Static pada Routing RIP
 
 # Step 4: Konfigurasi Wireless Router, Laptop0, Laptop1
 
-![ConfigWirelessRouter](https://user-images.githubusercontent.com/104877293/168706074-49636b33-f536-4e2f-8b1c-4e68137f3ab7.png)
+![ConfigWirelessRouter](https://user-images.githubusercontent.com/104877293/168746564-471a19a1-961b-459f-b2c1-c60884304b5c.png)
 
 - [ ] Wireless Router pada Wireless
 SSD:
