@@ -256,7 +256,7 @@ Konfigurasi RM3 Redistribute Static pada Routing RIP
 ![ConfigWirelessRouter](https://user-images.githubusercontent.com/104877293/168746564-471a19a1-961b-459f-b2c1-c60884304b5c.png)
 
 - [ ] Wireless Router pada Wireless
-SSD:
+SSID:
 ```sh
 labcisco
 ```
