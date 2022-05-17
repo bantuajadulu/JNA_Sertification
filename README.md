@@ -131,7 +131,7 @@ Konfigurasi mengalamatan ip address pada router RK1
   
 ## Area RM menggunakan Routing Static
 
-Konfigurasi Routing Static pad RM1
+Konfigurasi Routing Static pada RM1
 
 ```sh
    RM1(config)#ip route 13.10.10.0 255.255.255.252 12.10.10.2
@@ -141,7 +141,7 @@ Konfigurasi Routing Static pad RM1
    RM1(config)#ip route 10.1.1.0 255.255.255.252 20.2.2.2
    ```
    
-Konfigurasi Routing Static pad RM2
+Konfigurasi Routing Static pada RM2
 ```sh
    RM2(config)#ip route 192.168.20.0 255.255.255.224 12.10.10.1
    RM2(config)#ip route 20.2.2.0 255.255.255.252 12.10.10.1
@@ -149,7 +149,7 @@ Konfigurasi Routing Static pad RM2
    RM2(config)#ip route 192.168.10.0 255.255.255.128 12.10.10.1
    ```
 
-Konfigurasi Routing Static pad RM3
+Konfigurasi Routing Static pada RM3
 ```sh
    RM3(config)#ip route 192.168.20.0 255.255.255.224 20.2.2.1
    RM3(config)#ip route 12.10.10.0 255.255.255.252 20.2.2.1
@@ -160,7 +160,7 @@ Konfigurasi Routing Static pad RM3
    
 ## Area RS menggunakan Routing RIP
 
-Konfigurasi Routing RIP pad RM3
+Konfigurasi Routing RIP pada RM3
 
 ```sh
 RM3(config)#router rip
@@ -169,7 +169,7 @@ RM3(config-router)#no auto-summary
 RM3(config-router)#ex
    ```
    
-Konfigurasi Routing RIP pad RS
+Konfigurasi Routing RIP pada RS
 ```sh
 RS(config)#router rip
 RS(config-router)#net 192.168.10.0
@@ -179,7 +179,7 @@ RS(config-router)#ex
    ```
 ## Area RM2 -> RK2 menggunakan Routing BGP
 
-Konfigurasi Routing BGP pad RM2
+Konfigurasi Routing BGP pada RM2
 
 ```sh
 RM2(config)#router bgp 100
@@ -187,7 +187,7 @@ RM2(config-router)#neighbor 13.10.10.2 remote-as 200
 RM2(config-router)#ex
    ```
    
-Konfigurasi Routing BGP pad RK2
+Konfigurasi Routing BGP pada RK2
 
 ```sh
 RK2(config)#router bgp 200
@@ -197,7 +197,7 @@ RK2(config-router)#ex
    
 ## Area RK menggunakan Routing OSPF
 
-Konfigurasi Routing OSPF pad RK1
+Konfigurasi Routing OSPF pada RK1
 ```sh
    RK1(config)#router ospf 20
    RK1(config-router)#net 192.168.30.0 0.0.0.255 area 0
@@ -205,7 +205,7 @@ Konfigurasi Routing OSPF pad RK1
    RK1(config-router)#ex
    ```
 
-Konfigurasi Routing OSPF pad RK2
+Konfigurasi Routing OSPF pada RK2
 ```sh
    RK2(config)#router ospf 20
    RK2(config-router)#network 30.3.3.0 0.0.0.7 area 0
@@ -245,5 +245,28 @@ Konfigurasi RM3 Redistribute Static pada Routing RIP
    RM2(config-router)#redistribute connected
    RM2(config-router)#ex
    ```
-   
-   
+# Step 3: Konfigurasi DHCP eth0 pada PC0, PC1, PC3,
+
+- [ ] PC0 DHCP ip 192.168.10.2 255.255.255.128
+- [ ] PC1 DHCP ip 192.168.20.2 255.255.255.224
+- [ ] PC2 DHCP ip 192.168.30.2 255.255.255.0
+
+# Step 4: Konfigurasi Wireless Router, Laptop0, Laptop1
+
+- [ ] Wireless Router pada Wireless
+SSD:
+```sh
+labcisco
+```
+Password WPA2-PSK
+```sh
+ciscolab
+```
+- [ ] laptop0 replace LAN to Wireless then Connet to labcisco
+- [ ] laptop1 replace LAN to Wireless then Connet to labcisco
+
+# Step 4: Uji konektivitas
+
+- [ ] PC0 -> PC1
+- [ ] PC0 -> PC2
+- [ ] PC1 -> PC2
