@@ -253,6 +253,8 @@ Konfigurasi RM3 Redistribute Static pada Routing RIP
 
 # Step 4: Konfigurasi Wireless Router, Laptop0, Laptop1
 
+![ConfigWirelessRouter](https://user-images.githubusercontent.com/104877293/168706074-49636b33-f536-4e2f-8b1c-4e68137f3ab7.png)
+
 - [ ] Wireless Router pada Wireless
 SSD:
 ```sh
@@ -262,8 +264,8 @@ Password WPA2-PSK
 ```sh
 ciscolab
 ```
-- [ ] laptop0 replace LAN to Wireless then Connet to labcisco
-- [ ] laptop1 replace LAN to Wireless then Connet to labcisco
+- [ ] laptop0 replace LAN to Wireless then Connect to labcisco
+- [ ] laptop1 replace LAN to Wireless then Connect to labcisco
 
 # Step 4: Uji konektivitas
 
