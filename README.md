@@ -26,6 +26,7 @@ Konfigurasi mengalamatan ip address pada router RM1
    RM1(config-if)#ex
    RM1(config)#service dhcp
    RM1(config)#ip dhcp pool RMarea
+   RM1(dhcp-config)#network 192.168.20.1 255.255.255.224
    RM1(dhcp-config)#default-router 192.168.20.1
    RM1(dhcp-config)#dns-server 8.8.8.8
    RM1(dhcp-config)#ex
