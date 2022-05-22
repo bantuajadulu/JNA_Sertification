@@ -10,13 +10,13 @@
 
  <a href="https://youtu.be/rCtOluB4bns">Youtube video</a>
 
-![Topologi](https://img.youtube.com/vi/rCtOluB4bns/0.jpg)(https://www.youtube.com/watch?v=rCtOluB4bns)
+[![Topologi](https://img.youtube.com/vi/rCtOluB4bns/0.jpg)](https://www.youtube.com/watch?v=rCtOluB4bns)
 
 
 
 ## Topologi
 
-![Topologi](https://user-images.githubusercontent.com/104877293/168695145-0b7ee189-2957-425d-a9d6-58c0c728b11a.png)(https://www.youtube.com/c/bantuajadulu?sub_confirmation=1)
+[![Topologi](https://user-images.githubusercontent.com/104877293/168695145-0b7ee189-2957-425d-a9d6-58c0c728b11a.png)](https://www.youtube.com/c/bantuajadulu?sub_confirmation=1)
 
 # Step 1: Konfigurasi ip address pada setiap interface
 
